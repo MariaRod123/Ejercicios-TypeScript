@@ -1,7 +1,7 @@
 
-function calcularAreaDeCirculo(radio: number): number{
+function calcularAreaCirculo(radio: number): number{
     return Math.PI * Math.pow(radio, 2);    
   }
 
-console.log(calcularAreaDeCirculo(7))
+console.log(calcularAreaCirculo(7))
  
