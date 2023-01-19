@@ -1,6 +1,0 @@
-let radio: number = 1;
-function calcularAreaDeCirculo(radio) {
-    return Math.PI * Math.pow(radio, 2);
-  }
-  
-  calcularAreaDeCirculo(radio);
