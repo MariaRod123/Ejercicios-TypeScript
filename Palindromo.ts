@@ -9,8 +9,8 @@ function esPalindromo(cadenaIzqDer: string): boolean {
     return false;
   }
 }
-console.log(esPalindromo("efe")); 
-console.log(esPalindromo("hoja"))
+console.log(esPalindromo("efe")); //resultado esperado: "es palindromo" true
+console.log(esPalindromo("hoja")) //resultado esperado: "no es palidromo" false
 
 
 
