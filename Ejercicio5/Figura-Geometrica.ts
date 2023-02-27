@@ -1,4 +1,4 @@
-interface IFiguraGeometrica {
+export interface IFiguraGeometrica {
 
  calcularArea():number;
 calcularPerimetro():number;
