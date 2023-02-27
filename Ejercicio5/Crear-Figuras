@@ -1,0 +1,18 @@
+ import{ Circulo} from "./Circulo";
+   import {Cuadrado} from "./Cuadrado";
+   class CrearFiguras  {
+
+    calcular(nombre: string, tipo: string, valor: number): Circulo | Cuadrado {
+        return tipo == 'circulo' ? new Circulo(nombre, valor): new Cuadrado(nombre, valor);
+    }
+}
+
+let objeto = new CrearFiguras();
+
+let cuadrado1 = objeto.calcular('Cuadrado1', 'cuadrado', 9);
+console.log(cuadrado1.calcularArea());
+console.log(cuadrado1.calcularPerimetro());
+
+let circulo1 = objeto.calcular('Circulo1', 'circulo', 5);
+console.log(circulo1.calcularArea());
+console.log(circulo1.calcularPerimetro());
