@@ -1,4 +1,5 @@
- abstract class Figura {
+import {IFiguraGeometrica} from "./Figura-Geometrica";
+export abstract class Figura implements IFiguraGeometrica {
 
     protected nombre: string;
     
@@ -6,7 +7,7 @@
         this.nombre= nombre;
     }
     
-    abstract calcularArea():void;
-   abstract calcularPerimetro(): void;
+    abstract calcularArea():number;
+   abstract calcularPerimetro(): number;
 
 }
