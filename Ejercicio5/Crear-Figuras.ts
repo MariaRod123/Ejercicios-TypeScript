@@ -7,12 +7,12 @@
     }
 }
 
-let objeto = new CrearFiguras();
+let figura = new CrearFiguras();
 
-let cuadrado1 = objeto.calcular('Cuadrado1', 'cuadrado', 9);
+let cuadrado1 = figura.calcular('Cuadrado1', 'cuadrado', 9);
 console.log(cuadrado1.calcularArea());
 console.log(cuadrado1.calcularPerimetro());
 
-let circulo1 = objeto.calcular('Circulo1', 'circulo', 5);
+let circulo1 = figura.calcular('Circulo1', 'circulo', 5);
 console.log(circulo1.calcularArea());
 console.log(circulo1.calcularPerimetro());
