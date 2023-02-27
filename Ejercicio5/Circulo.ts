@@ -1,5 +1,5 @@
-
- class Circulo extends Figura{
+import {Figura} from "./Figura";
+ export class Circulo extends Figura{
     
      radio:number
 
