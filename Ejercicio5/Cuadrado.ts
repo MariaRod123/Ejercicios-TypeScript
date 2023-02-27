@@ -1,5 +1,5 @@
-
-class Cuadrado extends Figura{
+import {Figura} from "./Figura";
+ export class Cuadrado extends Figura{
     
      lado:number;
 
